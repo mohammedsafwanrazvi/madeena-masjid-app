@@ -1,0 +1,27 @@
+{
+  "appId": "com.madeena.madeenamasjid",
+  "appName": "Madeena Masjid ",
+  "webDir": "www",
+  "server": {
+    "url": "https://madeena.deluxestore.app",
+    "cleartext": false,
+    "errorPath": "offline.html"
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "release.jks",
+      "keystoreAlias": "upload"
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "backgroundColor": "#ffffff",
+      "launchShowDuration": 1500,
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "backgroundColor": "#0f172a",
+      "style": "LIGHT"
+    }
+  }
+}
