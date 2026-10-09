@@ -1,0 +1,20 @@
+{
+  "packageId": "com.madeena.madeenamasjid",
+  "host": "madeena.deluxestore.app",
+  "name": "Madeena Masjid ",
+  "launcherName": "Madeena Masjid ",
+  "themeColor": "#0f172a",
+  "navigationColor": "#0f172a",
+  "backgroundColor": "#ffffff",
+  "startUrl": "/",
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "enableNotifications": true,
+  "signingKey": {
+    "path": "./release.jks",
+    "alias": "upload"
+  },
+  "minSdkVersion": 24,
+  "targetSdkVersion": 34,
+  "enabled": true
+}
